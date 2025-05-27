@@ -32,7 +32,7 @@ const App = () => {
           </Route>
         </Routes>
       </div>
-      <Footer />
+      {!isOwnerPath && <Footer />}
     </div>
   );
 };
